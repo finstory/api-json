@@ -1,38 +1,326 @@
 [
-    {
-      "id": 1,
-      "name": "Dragon Ball Super",
-      "sub_name": "Goku Ultra Instict",
-      "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666261753/shop-mugs/items/dbs_yu4xoj.png",
-      "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
-      "type": "Magic",
-      "price": 6.25
-    },
-    {
-      "id": 2,
-      "name": "Dragon Ball Super",
-      "sub_name": "Goku Ultra Instict",
-      "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666261753/shop-mugs/items/dbs_yu4xoj.png",
-      "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
-      "type": "Magic",
-      "price": 6.25
-    },
-    {
-      "id": 3,
-      "name": "Dragon Ball Super",
-      "sub_name": "Goku Ultra Instict",
-      "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666261753/shop-mugs/items/dbs_yu4xoj.png",
-      "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
-      "type": "Magic",
-      "price": 6.25
-    },
-    {
-      "id": 4,
-      "name": "Dragon Ball Super",
-      "sub_name": "Goku Ultra Instict",
-      "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666261753/shop-mugs/items/dbs_yu4xoj.png",
-      "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
-      "type": "Magic",
-      "price": 6.25
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 2,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 3,
+    "name": "Hi, I Moon",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id": 4,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 5,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 6,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 7,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 8,
+    "name": "Hi, I Moon",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id": 9,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 10,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 12,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 13,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 14,
+    "name": "Hi, I Moon",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id":15,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 16,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 17,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 18,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 19,
+    "name": "Hi, I Moon",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id": 20,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 21,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 22,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 23,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 24,
+    "name": "Hi, I Moon",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id": 25,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 26,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 27,
+    "name": "Dragon Ball Super",
+    "sub_name": "Goku Ultra Instict",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/dbs_hnoos7.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Magic",
+    "price": "6.25",
+    "category1": "anime",
+    "category2": "magic"
+  },
+  {
+    "id": 28,
+    "name": "Fullmetal Alchemist",
+    "sub_name": "Roy Mustang Maes Hughes",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/fa_msruxb.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "5.00",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 29,
+    "name": "Bie Beach",
+    "sub_name": "Mind Blow",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/him_kakjbm.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Moon",
+    "price": "4.50",
+    "category2": "moon"
+  },
+  {
+    "id": 30,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  },
+  {
+    "id": 31,
+    "name": "Black Clove",
+    "sub_name": "Asta V01",
+    "image": "https://res.cloudinary.com/dz9smi3nc/image/upload/v1666330116/shop-mugs/items/bc_jafuqt.png",
+    "description": "lorem Ipsum is Lorem Ipsum but I love Lorem Ipsum but I don't like Lorem Ipsum and I don't like Lorem Ipsum",
+    "type": "Normal",
+    "price": "4.50",
+    "category1": "anime",
+    "category2": "normal"
+  }
+]

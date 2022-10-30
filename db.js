@@ -1,33 +1,12 @@
 const mugs = require("./data/mugs");
-const tags = require("./data/tags");
-const brands = require("./data/brands");
-const itemTypes = require("./data/itemTypes");
-
+const cart = require("./data/cart");
+const orders = require("./data/orders");
+const users = require("./data/users");
+const categories = require("./data/categories");
 module.exports = {
   mugs,
+  cart,
+  orders,
+  users,
+  categories
 }
-
-
-// const items = require("./data/items");
-
-// module.exports = () => {
-
-//   var tags = items.map((i) => i.tags);
-//   tags = [].concat.apply([], tags);
-//   tags = [...new Set(tags)];
-
- 
-
-//   var brands = items.map((i) => i.manufacturer);
-//   brands = [...new Set(brands)];
-
-//   var itemTypes = items.map((i) => i.itemType);
-//   itemTypes = [...new Set(itemTypes)];
-
-//   return {
-//     items,
-//     tags,
-//     brands,
-//     itemTypes,
-//   };
-// };
