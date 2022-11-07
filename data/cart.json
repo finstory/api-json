@@ -2,7 +2,6 @@
   {
     "id": 1,
     "id_user": 1,
-    "items": [1, 2, 3],
-    "price": 20
+    "items": [{"id":1,"amount":1}, {"id":2,"amount":5}, {"id":3,"amount":7}]
   }
 ]
